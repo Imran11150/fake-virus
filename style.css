@@ -1,0 +1,26 @@
+body {
+    background-color: black;
+    color: red;
+    font-family: monospace;
+    text-align: center;
+    padding-top: 100px;
+    animation: shake 0.5s infinite;
+}
+
+.warning {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.details {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+@keyframes shake {
+    0% { transform: translate(0px, 0px); }
+    25% { transform: translate(5px, 0px); }
+    50% { transform: translate(-5px, 0px); }
+    75% { transform: translate(5px, 0px); }
+    100% { transform: translate(0px, 0px); }
+}
